@@ -1,0 +1,41 @@
+@import 'https://fonts.googleapis.com/css?family=Oswald';
+
+body {
+    background-color: #DECB3C;
+    font-family: 'Oswald', sans-serif;
+    color: #121212;
+    font-size: 9px;
+    overflow: hidden;
+}
+
+.container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -30px;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+}
+
+svg {
+    position: absolute;
+    bottom: 0;
+}
+
+#batman {
+    cursor: pointer;
+}
+
+#joker {
+    visibility: hidden;
+}
+
+#hover {
+    position: absolute;
+    width: 100%;
+    bottom: 365px;
+    left: 0px;
+    text-align: center;
+    opacity: 0;
+}
